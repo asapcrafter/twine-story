@@ -1,0 +1,329 @@
+:: StoryTitle
+index
+
+
+:: StoryData
+{
+  "ifid": "2823AB49-236F-44AA-95AB-B5C016526BC0",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: \ Bedroom {"position":"875,925","size":"100,100"}
+You enter your bedroom looking for a place to lay down. There is single mattress on the floor. Maybe you should have gotten the bedframe that your parents kept nagging about. An opened suitcase with clothes heaped onto a pile is next to the mattress. The window is open and you hear the traffic of cars outside; it's annoying. 
+
+You fall on top of the mattress. After tossing around for a minute, you realize it's the wrong size. It doesn't feel comfortable. Taking a nap will be difficult.
+
+Your mouth feels dry. Maybe you should get water first.
+
+[[Back to the living room -> Living Room 4]]
+
+
+:: \ Bedroom2 {"position":"1025,1200","size":"100,100"}
+You enter your bedroom looking for a place to lay down. There is single mattress on the floor. Maybe you should have gotten the bedframe that your parents kept nagging about. An opened suitcase with clothes heaped onto a pile is next to the mattress. The window is open and you hear the traffic of cars outside; it's annoying. 
+
+You fall on top of the mattress. After tossing around for a minute, you realize it's the wrong size. It doesn't feel comfortable. Taking a nap will be difficult.
+
+[[Back -> Explore]]
+
+
+:: \ Beer {"position":"975,400","size":"100,100"}
+You reach for the bottle. The handle is still slightly sticky but you still go in for a swig.
+
+It's empty
+
+[[Next -> Living Room 2]]
+
+
+:: \ Explore {"position":"950,1350","size":"100,100"}
+You realize that you have to go to your job soon. It's your first day.
+
+You decide to not go and call in sick or something. 
+
+[[Open your phone -> Scroll]]
+
+
+:: \ Gift {"position":"975,650","size":"100,100"}
+In the pile you find some new bathroom towels, a gift card to a restaurant you don't recognize, and fuzzy slippers and socks. It's summer. 
+
+There is no water. 
+
+[[Next -> Living Room 3]]
+
+
+:: \ Infinite {"position":"950,1600","size":"100,100"}
+You see something on the news feed but it doesn't interest you
+
+[[Scroll -> Infinite]]
+
+
+:: \ Kitchen {"position":"1025,925","size":"100,100"}
+There's a faucet next to a small fridge. The fridge is silent, you probably haven't plugged it in yet. 
+
+You turn the faucet on.
+
+Nothing happens for a second but you can hear something.
+
+Water gushes out. Its slightly murky but the color and speed of the water levels out.
+
+You take a few sips but you decide that its not worth drinking anymore.
+
+[[Back to the living room -> Living Room 5]]
+
+
+:: \ Kitchen 2 {"position":"875,1200","size":"100,100"}
+There's a faucet next to a small fridge. The fridge is silent, you probably haven't plugged it in yet. 
+
+You turn the faucet on.
+
+Nothing happens for a second but you can hear something.
+
+Water gushes out. Its slightly murky but the color and speed of the water levels out.
+
+You take a few sips but you decide that its not worth drinking anymore.
+
+[[Back -> Explore]]
+
+
+:: \ Living Room {"position":"975,275","size":"100,100"}
+You finally take a look around the room. Its empty except for a few plastic folding chairs assembled in a sloppy circle. There is also half-eaten pizza boxes strewn between the chairs with empty beer bottles and red solo cups dotting the room. A sense of momentary dread pops up, disgusted that you'll have to clean this up, but you push away the short-lived thought.
+
+You can't help but notice how bare the apartment feels. 
+
+The apartment seemed much cozier when looking at it with the real estate agent. You wonder what furniture store they used to decorate the place earlier. If only it was as cozy as before.
+
+Your throat aches. It must be thirst.
+
+There's a beer bottle next to you.
+
+[[Pick the bottle up -> Beer]]
+
+
+:: \ Living Room 2 {"position":"975,525","size":"100,100"}
+You see a pile of gift baskets tucked away in the corner of the living room. 
+
+It's nice that your friends left some housewarming gifts. Maybe there's some drink or water in one of the gifts.
+
+[[Check out the gift baskets -> Gift]]
+
+
+:: \ Living Room 3 {"position":"975,775","size":"100,100"}
+Looking back at the room, it's clear that it's far from being lived in. The sense of familiarity you would feel at home is quite obviously absent. Maybe moving away from home so quickly wasn't the greatest idea. 
+
+You want to lay down but there's no couch. You also wonder if you should just drink water from the faucet at this point. 
+
+[[Bedroom -> Bedroom]]
+[[Kitchen -> Kitchen]]
+
+
+:: \ Living Room 4 {"position":"875,1075","size":"100,100"}
+The living room somehow looks messier than before. 
+
+[[Kitchen -> Kitchen 2]]
+
+
+:: \ Living Room 5 {"position":"1025,1075","size":"100,100"}
+The living room somehow looks messier than before. 
+
+[[Bedroom -> Bedroom2]]
+
+
+
+:: \ Phone {"position":"700,150","size":"100,100"}
+You wonder if anyone's tried messaging you since last night. After searching, you manage to find your phone under a pile of clothes next to you. 
+
+
+[[Open phone -> Phone 2]]
+
+
+:: \ Phone 2 {"position":"850,150","size":"100,100"}
+The phone is low on battery. It appears to be stained and somewhat sticky. In anticipation, you check your notifications. It is blank.
+
+[[.. -> Phone 3]]
+
+
+:: \ Phone 3 {"position":"975,150","size":"100,100"}
+Dissapointing to see it blank, but you also aren't surprised
+
+
+[[Living Room -> Living Room]]
+
+
+
+:: \ Scroll {"position":"950,1475","size":"100,100"}
+You see the keypad app but your eyes wander towards the Twitter icon.
+
+Maybe you can call your boss a bit later.
+
+[[Scroll through Twitter -> Infinite]]
+
+
+:: Start {"position":"575,150","size":"100,100"}
+The afternoon daylight feels burning hot on your arms through the still-closed blinds. You roll over on the floor, receding back to the shade. It feels cold now. Too cold. 
+
+
+[[Next -> Phone]]
+
+
+:: StoryStylesheet [stylesheet]
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700');
+* {
+  font-family: Arial, sans-serif; 
+}
+/* These are the default options for the entire browser window */
+tw-story {	
+	background-color: #002b36; 
+	/* Color is the foreground / font color */
+	color: #839496;
+	/* Make sure the first font listed is one of the fonts you imported above */
+  	font-family: Arial Narrow, Arial, sans-serif; 
+	/* This makes the font size for normal letters just a little bit bigger than default */
+	font-size: 1.55em;
+}
+
+/* These are the default options for the each passage area */
+tw-passage {
+	/* 
+		This lets the story take up most of its width up to a maximum readable width 
+		an `em` is about the width of one of your letters.  max-width lets the size
+		get wider and wider with the size of the window but only to a sane point
+		
+		It's ok to experiment with making this smaller or larger
+	*/
+    max-width: 55em;
+	/* This centers the main story column in the window */
+    margin: 0 auto 0 auto;
+}
+
+/* The sidebar with scoring and the back button */
+tw-sidebar { 
+	background: #073642;
+	color: #93a1a1;
+	/* 
+		Gives the sidebar rounded corners.  Remove for no corners or make the number
+		higher for more rounded colors.
+		
+	*/
+	border-radius: 10px;
+
+	/* Uncomment to hide the sidebar completely */
+	/* display: none; */ 
+}
+
+/*
+  BASIC LINK STYLES
+  
+  This covers various different kinds of links in Harlowe
+*/
+.enchantment-link, tw-link, a {
+	color: #cb4b16; 
+	font-weight: bold; 
+	/* Adds a glow to links.  You can make it a seperate color from the text 
+	   The numbers mean, in order: 
+	   - How far to the right of the letter (0 means radiating from the letter)
+	   - How far below the letter
+	   - How much blur does the glow/shadow have
+	   - What color is the shadow
+	*/
+	text-shadow: 0 0 5px #cb4b16;
+}
+/* Links that have already been visited */
+.enchantment-link:visited, tw-link:visited, .enchantment-link.visited, tw-link.visited, a:visited {
+	color: #268bd2; 
+	font-weight: bold; 
+	text-shadow: 0 0 5px #268bd2;
+}
+/* Links when the mouse is over them */
+.enchantment-link:hover, tw-link:hover, a:hover {
+	color: #2aa198; 
+	font-weight: bold; 
+	text-shadow: 0 0 5px #2aa198;
+}
+
+
+/*
+	EFFECTS
+	The pulse-in effect is good for text that will appear based on a user
+	action.  In Twine2, text will just blink into being and the user might
+	not notice.  If you wrap your text in:
+	<span class="pulse-in">Text that gets shown.</span>
+	
+	It will appear with a bright colored pulse that makes it clear it just
+	appeared.
+*/
+@keyframes pulsein {
+  from { color: #00fbf7; text-shadow: 0 0 1em #00fbf7; }
+  to { color: #ADC3D8; text-shadow: 0 0; }
+}
+.pulse-in {
+    color: #ADC3D8;
+    font-size: 1.1em;
+    animation: pulsein 1.2s linear 3;
+}
+span.pulse-in {
+  font-size: inherit;
+}
+
+/* IMAGE STYLES */
+
+/* styles for all images by default */
+img {
+	/* for example */
+	/* border: 1px solid black; */
+}
+/* 
+   images with <img class="full-width"> will stretch 
+   to the full width of the story 
+*/
+img.full-width {
+	display:block; margin-right:auto; margin-left:auto; 
+	width: 100%;
+}
+
+
+
+
+
+/*
+	TABLET-SPECIFIC RULES / SMALL WIDTH BROWSERS
+*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  tw-story {
+	  font-size: 3em;
+	  width: 100%;
+	  max-width: 95%;
+	  margin: 0 auto 0 auto;
+	  padding: 20% 10%;
+  }
+
+  tw-passage {
+	  width: 100%;
+  }  
+
+}	
+
+/*
+	MOBILE-SPECIFIC RULES
+	
+	You often want to make fonts much larger.
+*/
+@media only screen and (max-device-width: 480px) {
+
+  tw-story {
+	  font-size: 3.2em;
+	  width: 100%;
+	  max-width: 95%;
+	  margin: 0 auto 0 auto;
+	  padding: 20% 5%;
+  }
+
+  tw-passage {
+	  width: 100%;
+  }  
+  
+}
